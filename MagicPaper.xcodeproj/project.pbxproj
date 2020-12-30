@@ -3,106 +3,107 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ECBB8C3259CFED800B12A0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBB8C2259CFED800B12A0E /* AppDelegate.swift */; };
-		0ECBB8C5259CFED800B12A0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBB8C4259CFED800B12A0E /* SceneDelegate.swift */; };
-		0ECBB8C7259CFED800B12A0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBB8C6259CFED800B12A0E /* ViewController.swift */; };
-		0ECBB8CA259CFED800B12A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ECBB8C8259CFED800B12A0E /* Main.storyboard */; };
-		0ECBB8CC259CFEDA00B12A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ECBB8CB259CFEDA00B12A0E /* Assets.xcassets */; };
-		0ECBB8CF259CFEDA00B12A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ECBB8CD259CFEDA00B12A0E /* LaunchScreen.storyboard */; };
-		2C6F031EF78E1E7C7F75D617 /* Pods_MagicPaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4126CC85DBDD9D5277F549 /* Pods_MagicPaper.framework */; };
+		0E95C77A259D0FD100D751E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95C779259D0FD100D751E5 /* AppDelegate.swift */; };
+		0E95C77C259D0FD100D751E5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E95C77B259D0FD100D751E5 /* art.scnassets */; };
+		0E95C77E259D0FD100D751E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E95C77D259D0FD100D751E5 /* ViewController.swift */; };
+		0E95C781259D0FD100D751E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E95C77F259D0FD100D751E5 /* Main.storyboard */; };
+		0E95C783259D0FD400D751E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E95C782259D0FD400D751E5 /* Assets.xcassets */; };
+		0E95C786259D0FD400D751E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E95C784259D0FD400D751E5 /* LaunchScreen.storyboard */; };
+		82F791B99CC801AA74D3BCBD /* Pods_MagicPaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE2D6E907DF57425EE4A8CE /* Pods_MagicPaper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0366A992E0894C209364C8AF /* Pods-MagicPaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPaper.release.xcconfig"; path = "Target Support Files/Pods-MagicPaper/Pods-MagicPaper.release.xcconfig"; sourceTree = "<group>"; };
-		0ECBB8BF259CFED800B12A0E /* MagicPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ECBB8C2259CFED800B12A0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0ECBB8C4259CFED800B12A0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0ECBB8C6259CFED800B12A0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0ECBB8C9259CFED800B12A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0ECBB8CB259CFEDA00B12A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0ECBB8CE259CFEDA00B12A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0ECBB8D0259CFEDA00B12A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F4126CC85DBDD9D5277F549 /* Pods_MagicPaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicPaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6030CF05CDCE2442A668A40 /* Pods-MagicPaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPaper.debug.xcconfig"; path = "Target Support Files/Pods-MagicPaper/Pods-MagicPaper.debug.xcconfig"; sourceTree = "<group>"; };
+		0DE2D6E907DF57425EE4A8CE /* Pods_MagicPaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicPaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E95C776259D0FD100D751E5 /* MagicPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E95C779259D0FD100D751E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E95C77B259D0FD100D751E5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		0E95C77D259D0FD100D751E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E95C780259D0FD100D751E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E95C782259D0FD400D751E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E95C785259D0FD400D751E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E95C787259D0FD400D751E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFFA9B52AE70D8A5C5EF11B /* Pods-MagicPaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPaper.debug.xcconfig"; path = "Target Support Files/Pods-MagicPaper/Pods-MagicPaper.debug.xcconfig"; sourceTree = "<group>"; };
+		5D70264D1B3761B55B93617D /* Pods-MagicPaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPaper.release.xcconfig"; path = "Target Support Files/Pods-MagicPaper/Pods-MagicPaper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0ECBB8BC259CFED800B12A0E /* Frameworks */ = {
+		0E95C773259D0FD100D751E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6F031EF78E1E7C7F75D617 /* Pods_MagicPaper.framework in Frameworks */,
+				82F791B99CC801AA74D3BCBD /* Pods_MagicPaper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		035223A036133C4EA1CE489F /* Frameworks */ = {
+		0E95C76D259D0FD100D751E5 = {
 			isa = PBXGroup;
 			children = (
-				0F4126CC85DBDD9D5277F549 /* Pods_MagicPaper.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0ECBB8B6259CFED800B12A0E = {
-			isa = PBXGroup;
-			children = (
-				0ECBB8C1259CFED800B12A0E /* MagicPaper */,
-				0ECBB8C0259CFED800B12A0E /* Products */,
-				A6D36FD5D876C58A462D4627 /* Pods */,
-				035223A036133C4EA1CE489F /* Frameworks */,
+				0E95C778259D0FD100D751E5 /* MagicPaper */,
+				0E95C777259D0FD100D751E5 /* Products */,
+				C5BBD3CF4326979D26074770 /* Pods */,
+				ABBD1DE45A2537877FA54150 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0ECBB8C0259CFED800B12A0E /* Products */ = {
+		0E95C777259D0FD100D751E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0ECBB8BF259CFED800B12A0E /* MagicPaper.app */,
+				0E95C776259D0FD100D751E5 /* MagicPaper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0ECBB8C1259CFED800B12A0E /* MagicPaper */ = {
+		0E95C778259D0FD100D751E5 /* MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
-				0ECBB8C2259CFED800B12A0E /* AppDelegate.swift */,
-				0ECBB8C4259CFED800B12A0E /* SceneDelegate.swift */,
-				0ECBB8C6259CFED800B12A0E /* ViewController.swift */,
-				0ECBB8C8259CFED800B12A0E /* Main.storyboard */,
-				0ECBB8CB259CFEDA00B12A0E /* Assets.xcassets */,
-				0ECBB8CD259CFEDA00B12A0E /* LaunchScreen.storyboard */,
-				0ECBB8D0259CFEDA00B12A0E /* Info.plist */,
+				0E95C779259D0FD100D751E5 /* AppDelegate.swift */,
+				0E95C77B259D0FD100D751E5 /* art.scnassets */,
+				0E95C77D259D0FD100D751E5 /* ViewController.swift */,
+				0E95C77F259D0FD100D751E5 /* Main.storyboard */,
+				0E95C782259D0FD400D751E5 /* Assets.xcassets */,
+				0E95C784259D0FD400D751E5 /* LaunchScreen.storyboard */,
+				0E95C787259D0FD400D751E5 /* Info.plist */,
 			);
 			path = MagicPaper;
 			sourceTree = "<group>";
 		};
-		A6D36FD5D876C58A462D4627 /* Pods */ = {
+		ABBD1DE45A2537877FA54150 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6030CF05CDCE2442A668A40 /* Pods-MagicPaper.debug.xcconfig */,
-				0366A992E0894C209364C8AF /* Pods-MagicPaper.release.xcconfig */,
+				0DE2D6E907DF57425EE4A8CE /* Pods_MagicPaper.framework */,
 			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5BBD3CF4326979D26074770 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFA9B52AE70D8A5C5EF11B /* Pods-MagicPaper.debug.xcconfig */,
+				5D70264D1B3761B55B93617D /* Pods-MagicPaper.release.xcconfig */,
+			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0ECBB8BE259CFED800B12A0E /* MagicPaper */ = {
+		0E95C775259D0FD100D751E5 /* MagicPaper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0ECBB8D3259CFEDA00B12A0E /* Build configuration list for PBXNativeTarget "MagicPaper" */;
+			buildConfigurationList = 0E95C78A259D0FD400D751E5 /* Build configuration list for PBXNativeTarget "MagicPaper" */;
 			buildPhases = (
-				05E3BF080AFD11B35094181B /* [CP] Check Pods Manifest.lock */,
-				0ECBB8BB259CFED800B12A0E /* Sources */,
-				0ECBB8BC259CFED800B12A0E /* Frameworks */,
-				0ECBB8BD259CFED800B12A0E /* Resources */,
-				7E98E7751F64B3006D091B27 /* [CP] Embed Pods Frameworks */,
+				F34392B74242036F6BFFA929 /* [CP] Check Pods Manifest.lock */,
+				0E95C772259D0FD100D751E5 /* Sources */,
+				0E95C773259D0FD100D751E5 /* Frameworks */,
+				0E95C774259D0FD100D751E5 /* Resources */,
+				AAD5AA1550CA85EC74F3C713 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -110,24 +111,24 @@
 			);
 			name = MagicPaper;
 			productName = MagicPaper;
-			productReference = 0ECBB8BF259CFED800B12A0E /* MagicPaper.app */;
+			productReference = 0E95C776259D0FD100D751E5 /* MagicPaper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0ECBB8B7259CFED800B12A0E /* Project object */ = {
+		0E95C76E259D0FD100D751E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					0ECBB8BE259CFED800B12A0E = {
+					0E95C775259D0FD100D751E5 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = 0ECBB8BA259CFED800B12A0E /* Build configuration list for PBXProject "MagicPaper" */;
+			buildConfigurationList = 0E95C771259D0FD100D751E5 /* Build configuration list for PBXProject "MagicPaper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,31 +136,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 0ECBB8B6259CFED800B12A0E;
-			productRefGroup = 0ECBB8C0259CFED800B12A0E /* Products */;
+			mainGroup = 0E95C76D259D0FD100D751E5;
+			productRefGroup = 0E95C777259D0FD100D751E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0ECBB8BE259CFED800B12A0E /* MagicPaper */,
+				0E95C775259D0FD100D751E5 /* MagicPaper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0ECBB8BD259CFED800B12A0E /* Resources */ = {
+		0E95C774259D0FD100D751E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ECBB8CF259CFEDA00B12A0E /* LaunchScreen.storyboard in Resources */,
-				0ECBB8CC259CFEDA00B12A0E /* Assets.xcassets in Resources */,
-				0ECBB8CA259CFED800B12A0E /* Main.storyboard in Resources */,
+				0E95C77C259D0FD100D751E5 /* art.scnassets in Resources */,
+				0E95C786259D0FD400D751E5 /* LaunchScreen.storyboard in Resources */,
+				0E95C783259D0FD400D751E5 /* Assets.xcassets in Resources */,
+				0E95C781259D0FD100D751E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		05E3BF080AFD11B35094181B /* [CP] Check Pods Manifest.lock */ = {
+		AAD5AA1550CA85EC74F3C713 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicPaper/Pods-MagicPaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicPaper/Pods-MagicPaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicPaper/Pods-MagicPaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34392B74242036F6BFFA929 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,51 +200,33 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7E98E7751F64B3006D091B27 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MagicPaper/Pods-MagicPaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MagicPaper/Pods-MagicPaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicPaper/Pods-MagicPaper-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0ECBB8BB259CFED800B12A0E /* Sources */ = {
+		0E95C772259D0FD100D751E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ECBB8C7259CFED800B12A0E /* ViewController.swift in Sources */,
-				0ECBB8C3259CFED800B12A0E /* AppDelegate.swift in Sources */,
-				0ECBB8C5259CFED800B12A0E /* SceneDelegate.swift in Sources */,
+				0E95C77E259D0FD100D751E5 /* ViewController.swift in Sources */,
+				0E95C77A259D0FD100D751E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0ECBB8C8259CFED800B12A0E /* Main.storyboard */ = {
+		0E95C77F259D0FD100D751E5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0ECBB8C9259CFED800B12A0E /* Base */,
+				0E95C780259D0FD100D751E5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0ECBB8CD259CFEDA00B12A0E /* LaunchScreen.storyboard */ = {
+		0E95C784259D0FD400D751E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0ECBB8CE259CFEDA00B12A0E /* Base */,
+				0E95C785259D0FD400D751E5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -233,7 +234,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0ECBB8D1259CFEDA00B12A0E /* Debug */ = {
+		0E95C788259D0FD400D751E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		0ECBB8D2259CFEDA00B12A0E /* Release */ = {
+		0E95C789259D0FD400D751E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,9 +350,9 @@
 			};
 			name = Release;
 		};
-		0ECBB8D4259CFEDA00B12A0E /* Debug */ = {
+		0E95C78B259D0FD400D751E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6030CF05CDCE2442A668A40 /* Pods-MagicPaper.debug.xcconfig */;
+			baseConfigurationReference = 2BFFA9B52AE70D8A5C5EF11B /* Pods-MagicPaper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -370,9 +371,9 @@
 			};
 			name = Debug;
 		};
-		0ECBB8D5259CFEDA00B12A0E /* Release */ = {
+		0E95C78C259D0FD400D751E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0366A992E0894C209364C8AF /* Pods-MagicPaper.release.xcconfig */;
+			baseConfigurationReference = 5D70264D1B3761B55B93617D /* Pods-MagicPaper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -394,25 +395,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0ECBB8BA259CFED800B12A0E /* Build configuration list for PBXProject "MagicPaper" */ = {
+		0E95C771259D0FD100D751E5 /* Build configuration list for PBXProject "MagicPaper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0ECBB8D1259CFEDA00B12A0E /* Debug */,
-				0ECBB8D2259CFEDA00B12A0E /* Release */,
+				0E95C788259D0FD400D751E5 /* Debug */,
+				0E95C789259D0FD400D751E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0ECBB8D3259CFEDA00B12A0E /* Build configuration list for PBXNativeTarget "MagicPaper" */ = {
+		0E95C78A259D0FD400D751E5 /* Build configuration list for PBXNativeTarget "MagicPaper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0ECBB8D4259CFEDA00B12A0E /* Debug */,
-				0ECBB8D5259CFEDA00B12A0E /* Release */,
+				0E95C78B259D0FD400D751E5 /* Debug */,
+				0E95C78C259D0FD400D751E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0ECBB8B7259CFED800B12A0E /* Project object */;
+	rootObject = 0E95C76E259D0FD100D751E5 /* Project object */;
 }
