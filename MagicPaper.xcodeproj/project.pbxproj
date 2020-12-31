@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		0E95C781259D0FD100D751E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E95C77F259D0FD100D751E5 /* Main.storyboard */; };
 		0E95C783259D0FD400D751E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E95C782259D0FD400D751E5 /* Assets.xcassets */; };
 		0E95C786259D0FD400D751E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E95C784259D0FD400D751E5 /* LaunchScreen.storyboard */; };
+		0EC7CDF5259E43EB00263F07 /* azbukata-na-bibi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0EC7CDF4259E43EB00263F07 /* azbukata-na-bibi.mp4 */; };
 		82F791B99CC801AA74D3BCBD /* Pods_MagicPaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE2D6E907DF57425EE4A8CE /* Pods_MagicPaper.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		0E95C782259D0FD400D751E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E95C785259D0FD400D751E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E95C787259D0FD400D751E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC7CDF4259E43EB00263F07 /* azbukata-na-bibi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "azbukata-na-bibi.mp4"; sourceTree = "<group>"; };
 		2BFFA9B52AE70D8A5C5EF11B /* Pods-MagicPaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPaper.debug.xcconfig"; path = "Target Support Files/Pods-MagicPaper/Pods-MagicPaper.debug.xcconfig"; sourceTree = "<group>"; };
 		5D70264D1B3761B55B93617D /* Pods-MagicPaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPaper.release.xcconfig"; path = "Target Support Files/Pods-MagicPaper/Pods-MagicPaper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 		0E95C778259D0FD100D751E5 /* MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
+				0EC7CDF4259E43EB00263F07 /* azbukata-na-bibi.mp4 */,
 				0E95C779259D0FD100D751E5 /* AppDelegate.swift */,
 				0E95C77B259D0FD100D751E5 /* art.scnassets */,
 				0E95C77D259D0FD100D751E5 /* ViewController.swift */,
@@ -88,7 +91,6 @@
 				2BFFA9B52AE70D8A5C5EF11B /* Pods-MagicPaper.debug.xcconfig */,
 				5D70264D1B3761B55B93617D /* Pods-MagicPaper.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +155,7 @@
 			files = (
 				0E95C77C259D0FD100D751E5 /* art.scnassets in Resources */,
 				0E95C786259D0FD400D751E5 /* LaunchScreen.storyboard in Resources */,
+				0EC7CDF5259E43EB00263F07 /* azbukata-na-bibi.mp4 in Resources */,
 				0E95C783259D0FD400D751E5 /* Assets.xcassets in Resources */,
 				0E95C781259D0FD100D751E5 /* Main.storyboard in Resources */,
 			);

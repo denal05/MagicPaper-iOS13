@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "bibi-i-zazi.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.14742547425474256
+  }
+}

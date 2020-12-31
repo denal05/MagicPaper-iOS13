@@ -39,10 +39,15 @@
                             <constraint firstItem="Lc7-Zj-Mbn" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" id="Y1j-rS-iRa"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Lc7-Zj-Mbn"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
-                        <outlet property="playerView" destination="Lc7-Zj-Mbn" id="P9j-14-emq"/>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                        <outlet property="ytPlayerView" destination="Lc7-Zj-Mbn" id="P9j-14-emq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
